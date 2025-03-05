@@ -1,7 +1,7 @@
 import { CreateEmployeeDto } from "../dtos/CreateEmployeeDto";
 import Employee from "../models/Employee";
 import { QueryTypes, Transaction } from "sequelize";
-import Models from "../models/";
+import Models from "../models";
 import sequelize from "../config/database";
 const { EmployeeFamily, Education, EmployeeProfile } = Models;
 
